@@ -8,12 +8,12 @@ import { FaLinkedinIn } from "react-icons/fa";
 export default function Footer() {
   return (
     <>
-      <div className="bg-[url(/public/Img/footer-bg.jpg)] bg-cover bg-no-repeat ">
+      <div className="bg-[url(/Img/footer-bg.jpg)] bg-cover bg-no-repeat ">
         <div className="md:w-custom w-[95%] mx-auto py-20 flex flex-wrap ">
           <div className="sm:w-1/4 sm:block flex  sm:justify-start justify-center flex-col w-full space-y-5 md:pr-10">
             <img
               className="w-[220px]  sm:w-[150px]"
-              src="/public/Img/logo-2.png"
+              src="/Img/logo-2.png"
               alt=""
             />
             <p className="font-Nunito text-white  sm:text-left text-center">

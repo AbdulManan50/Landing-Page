@@ -69,7 +69,7 @@ export default function Contactus() {
               </button>
             </form>
           </div>
-          <div className="md:w-[30%] sm:w-1/2 w-full sm:mt-0 mt-5  bg-[url(/public/Img/contact-info-box-bg.png)] bg-cover bg-center p-9 rounded-xl space-y-5">
+          <div className="md:w-[30%] sm:w-1/2 w-full sm:mt-0 mt-5  bg-[url(/Img/contact-info-box-bg.png)] bg-cover bg-center p-9 rounded-xl space-y-5">
             <h1 className="text-[30px] font-Rajdhani text-white font-extrabold">
               Don’t Forget to Contact Us
             </h1>

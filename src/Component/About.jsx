@@ -21,12 +21,12 @@ export default function About() {
               </h1>
             </div>
             <div>
-              <img src="/public/Img/about-thumb.png" alt="" />
+              <img src="/Img/about-thumb.png" alt="" />
             </div>
             <div>
               <img
                 className="absolute bottom-3 sm:right-28 right-10 animate-move w-[30%]"
-                src="/public/Img/about-shape.png"
+                src="/Img/about-shape.png"
                 alt=""
               />
             </div>
@@ -115,7 +115,7 @@ export default function About() {
               </button>
               <img
                 className="animate-move"
-                src="/public/Img/about-shape2.png"
+                src="/Img/about-shape2.png"
                 alt=""
               />
             </div>

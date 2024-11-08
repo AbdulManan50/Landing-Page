@@ -5,7 +5,7 @@ export default function Banner() {
     <>
       <div
         id="home"
-        className="bg-[url(/public/Img/hero-bg.png)] bg-cover bg-no-repeat "
+        className="bg-[url(/Img/hero-bg.png)] bg-cover bg-no-repeat "
       >
         <div className="md:w-custom w-[95%]  mx-auto flex justify-between items-center">
           <div className="md:w-[50%] w-full space-y-5 py-10">
@@ -70,12 +70,12 @@ export default function Banner() {
             <div className="flex justify-end items-center pt-10 relative">
               <img
                 className="absolute top-36 left-28 rotate-circle"
-                src="/public/Img/hero-shape.png"
+                src="/Img/hero-shape.png"
                 alt=""
               />
               <img
                 className="w-[68%]"
-                src="/public/Img/hero-thumb.png"
+                src="/Img/hero-thumb.png"
                 alt=""
               />
             </div>
