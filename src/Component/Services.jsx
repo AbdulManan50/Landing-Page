@@ -7,7 +7,7 @@ export default function Services() {
       <>
         <div
           id="services"
-          className="bg-[url(public/Img/service.png)] bg-t-center bg-cover bg-no-repeat py-20"
+          className="bg-[url(/Img/service.png)] bg-t-center bg-cover bg-no-repeat py-20"
         >
           <div className="md:w-custom w-[95%] mx-auto">
             <h1 className="text-lg font-semibold text-blue  font-Rajdhani text-center">
