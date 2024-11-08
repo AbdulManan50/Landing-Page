@@ -51,7 +51,7 @@ export default function Header() {
           <img src="/public/Img/logo.png" alt="" />
         </div>
         <div className="w-1/2 flex items-center justify-end">
-          <ul className="hidden md:flex pr-14 justify-end gap-8 font-Nunito text-lg hover:text-Darkblue">
+          <ul className="hidden md:flex pr-15 justify-end gap-8 font-Nunito text-lg hover:text-Darkblue">
             <li>
               <a href="#home">Home</a>
             </li>
