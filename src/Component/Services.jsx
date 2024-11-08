@@ -5,7 +5,10 @@ export default function Services() {
   return (
     <>
       <>
-        <div id="services" className="bg-[url(public/Img/service-bg.png)] bg-t-center bg-cover bg-no-repeat py-20">
+        <div
+          id="services"
+          className="bg-[url(public/Img/service.png)] bg-t-center bg-cover bg-no-repeat py-20"
+        >
           <div className="md:w-custom w-[95%] mx-auto">
             <h1 className="text-lg font-semibold text-blue  font-Rajdhani text-center">
               IT Support For Business
