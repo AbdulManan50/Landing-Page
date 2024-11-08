@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("/font/Rajdhani-Regular.eot");
+  src: url("/font/Rajdhani-Regular.eot") format("embedded-opentype"),
+    url("/font/Rajdhani-Regular.woff2") format("woff2"),
+    url("/font/Rajdhani-Regular.woff") format("woff"),
+    url("/font/Rajdhani-Regular.ttf") format("truetype"),
+    url("/font/Rajdhani-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/font/Nunito-Regular.eot");
+  src: url("/font/Nunito-Regular.eot") format("embedded-opentype"),
+    url("/font/Nunito-Regular.woff2") format("woff2"),
+    url("/font/Nunito-Regular.woff") format("woff"),
+    url("/font/Nunito-Regular.ttf") format("truetype"),
+    url("/font/Nunito-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.background-gradient {
+  background: linear-gradient(
+    230deg,
+    rgba(12, 89, 219, 1) 50%,
+    rgba(0, 25, 76, 1) 50%
+  );
+}
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-move {
+  animation: moveLeftRight 5s infinite ease-in-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-circle {
+  animation: spin 20s linear infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
